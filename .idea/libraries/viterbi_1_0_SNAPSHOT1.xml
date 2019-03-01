@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="viterbi-1.0-SNAPSHOT1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../viterbi/target/viterbi-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
