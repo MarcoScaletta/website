@@ -32,6 +32,7 @@
   "homepage": "https://github.com/MarcoScaletta/tln-web-service#readme",
   "description": "",
   "engines": {
-    "node": "11.x"
+    "node": "11.x",
+    "npm": "3.x"
   }
 }
