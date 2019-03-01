@@ -13,7 +13,8 @@
     "http-errors": "^1.7.2",
     "java": "^0.11.0",
     "morgan": "^1.9.1",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "find-java-home": "latest"
   },
   "devDependencies": {
     "request": "^2.88.0",
