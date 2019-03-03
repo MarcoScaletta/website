@@ -16,9 +16,9 @@ router.post('/viterbi/tag', function(req, res) {
 
   var java = require("java");
 
-  java.classpath.push("public/javascripts/viterbi-1.0-SNAPSHOT.jar"); //Needs to be on the same path as of .js file
+  java.classpath.push("public/javascripts/viterbi-1.0-SNAPSHOT.jar");
   java.classpath.push('target/classes');
-  //var myclass = java.newInstanceSync("com.main.Main");
+
   java.import("com.main.Main");
   var myclass = java.newInstanceSync("com.main.Main");
   res.send(java.callMethodSync(myclass, "examplePoSTagVersion1", req.body.sentence));

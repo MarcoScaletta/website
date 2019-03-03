@@ -3,12 +3,34 @@ extends layout
 block content
     h1= title
     p Benvenuto in #{title}
-    p Inserisci la frase da taggare
+    p
+    | Inserisci la frase (in italiano) da taggare (attenzione tutti gli elementi della frase devono essere separati
+    |  da uno spazio)
     p
     textarea(id='sentence', rows=3, cols=100)
     p
     button#runTagger(onclick='f()') Esegui il PoS Tagger
     p
     textarea(id='result' rows=3, cols=100)
+    p
+    p
+    | Il PoS Tagger è stato addestrato con #[strong UD_Italian-ISDT] (
+    | #[a(href="https://github.com/UniversalDependencies/UD_Italian-ISDT/blob/master/it_isdt-ud-train.conllu") dataset_training]
+    |  e
+    | #[a(href="https://github.com/UniversalDependencies/UD_Italian-ISDT/blob/master/it_isdt-ud-test.conllu") dataset_testing])
+    | con un'accuratezza del 94%.
+    p
+    | Avvertenza: purtroppo tale accuratezza risulta insufficiente,
+    | dal momento che fallisce nel taggare il verbo #[strong ESSERE]
+    | e il verbo #[strong AVERE],
+    br
+    | dal momento che sono sempre interpretati come
+    code  [AUX]
+    |, cioè AUSILIARI. (Prova a taggare la frase:
+    code  "Io ho fame ."
+    | )
+    p.
+    | Di #[a(href='https://github.com/MarcoScaletta') Marco Scaletta]
+
 
 

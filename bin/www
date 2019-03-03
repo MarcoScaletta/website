@@ -7,6 +7,11 @@
 var app = require('../app');
 var debug = require('debug')('tln-web-service:server');
 var http = require('http');
+var javac = require('find-java-home')(function(err, home){
+  if(err)return console.log(err);
+  console.log(home);
+});
+
 
 /**
  * Get port from environment and store in Express.
