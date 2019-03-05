@@ -44,4 +44,11 @@ app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 }));
+
+
 module.exports = app;
+
+var http = require("http");
+setInterval(function() {
+  http.get("http://viterbi.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
