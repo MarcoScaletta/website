@@ -51,4 +51,4 @@ module.exports = app;
 var http = require("http");
 setInterval(function() {
   http.get("http://viterbi.herokuapp.com");
-}, 1740000); // every 5 minutes (300000)
+}, 300000); // every 5 minutes (300000)
