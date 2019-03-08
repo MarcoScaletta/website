@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a060613-a000-406e-9442-44b5727f2a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/relazione.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/viterbi.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/viterbi.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/viterbi.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="361">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+            <state relative-caret-position="315">
+              <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -126,6 +124,11 @@
             </path>
             <path>
               <item name="tln-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tln-web-service" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tln-web-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -138,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552045108282" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552046148563" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../viterbi/target/viterbi-1.0-SNAPSHOT.jar!/" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -157,6 +160,7 @@
       <recent name="$PROJECT_DIR$/public/javascripts/viterbi-1.0-SNAPSHOT.jar" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bin" />
       <recent name="$PROJECT_DIR$/public/javascripts/viterbi-1.0-SNAPSHOT.jar" />
@@ -190,15 +194,16 @@
       <workItem from="1551631223369" duration="2975000" />
       <workItem from="1551794674780" duration="7440000" />
       <workItem from="1551867356081" duration="1885000" />
-      <workItem from="1552043864152" duration="1044000" />
+      <workItem from="1552043864152" duration="2196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25745000" />
+    <option name="totallyTimeSpent" value="26897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26542416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -216,7 +221,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3301887" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -345,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+        <state relative-caret-position="315">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -366,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/viterbi.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="361">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
         </state>
       </provider>
     </entry>
