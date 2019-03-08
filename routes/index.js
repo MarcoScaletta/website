@@ -6,9 +6,10 @@ var router = express.Router();
 //   res.render('index', { title: 'Express' });
 // });
 
-router.get('/*', function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.render('viterbi', { title: 'Viterbi' });
 });
+
 
 
 router.post('/viterbi/tag', function(req, res) {
