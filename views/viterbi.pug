@@ -1,8 +1,7 @@
 extends layout
 
 block content
-    h1= title
-    p Benvenuto in #{title}
+    p(class="title") Benvenuto in #{title}
     p
     | Inserisci la frase (in italiano) da taggare (attenzione tutti gli elementi della frase devono essere separati
     |  da uno spazio)
@@ -30,8 +29,8 @@ block content
     | #[code "Io ho avuto sonno ."])
     p.
     | Al seguente link è possibile scaricare la relazione del progetto:
-    | #[a(href='relazione.pdf') relazione.pdf]
-    p Di #[a(href='/home/friday/Documenti/Github/tln-web-service/relazione.pdf') Marco Scaletta]
+    | #[a(href='/relazione.pdf') relazione.pdf]
+    p Di #[a(href='https://github.com/MarcoScaletta') Marco Scaletta]
 
 
 

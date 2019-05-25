@@ -6,10 +6,17 @@ var router = express.Router();
 //   res.render('index', { title: 'Express' });
 // });
 
-router.get('/', function(req, res, next) {
+router.get('/viterbi', function(req, res, next) {
   res.render('viterbi', { title: 'Viterbi' });
 });
 
+router.get('/', function(req, res, next) {
+  res.render('homepage', { title: 'Home' });
+});
+
+router.get('/chisono', function(req, res, next) {
+  res.render('whoami', { title: 'Chi sono' });
+});
 
 
 router.post('/viterbi/tag', function(req, res) {

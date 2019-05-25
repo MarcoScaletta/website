@@ -11,3 +11,23 @@ textarea{
   row-span: 1;
   column-span:1 ;
 }
+.header {
+  padding: 15px;
+}
+
+.menu {
+  width: 40%;
+  float: left;
+  padding: 15px;
+}
+
+.title{
+  font-size: x-large;
+}
+
+.main {
+  width: 60%;
+  float: left;
+  padding: 15px;
+  font-size: large;
+}
