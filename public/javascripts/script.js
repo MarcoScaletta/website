@@ -1,7 +1,5 @@
 
 function f(){
-
-
     var sentence = $("#sentence").val();
 
     $.ajax({
@@ -12,5 +10,14 @@ function f(){
             $("#result").val(result);
         }
     });
+}
 
+function load() {
+    document.getElementById("content-div").style.display = "none    ";
+    setTimeout(showPage, 3000);
+}
+
+function showPage() {
+    document.getElementById("loading-div").style.display = "none";
+    document.getElementById("content-div").style.display = "block";
 }
