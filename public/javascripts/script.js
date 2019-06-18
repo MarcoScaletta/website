@@ -13,7 +13,6 @@ function f(){
 }
 
 function load() {
-    document.getElementById("content-div").style.display = "none    ";
     setTimeout(showPage, 3000);
 }
 
