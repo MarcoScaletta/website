@@ -6,19 +6,19 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "debug": "^2.6.9",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "find-java-home": "latest",
-    "http-errors": "^1.7.2",
-    "java": "^0.11.0",
+    "http-errors": "^1.7.3",
+    "lodash": "^4.17.14",
+    "minimatch": "^3.0.2",
     "morgan": "^1.9.1",
-    "pug": "^2.0.3"
+    "pug": "^2.0.4"
   },
   "devDependencies": {
-    "request": "^2.88.0",
-    "java": "latest"
+    "request": "^2.88.0"
   },
   "main": "app.js",
   "author": "Marco Scaletta",
