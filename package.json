@@ -13,7 +13,7 @@
     "find-java-home": "latest",
     "http-errors": "^1.7.3",
     "java": "^0.11.1",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "minimatch": "^3.0.4",
     "morgan": "^1.9.1",
     "node.flow": "^1.0.0",
