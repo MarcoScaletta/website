@@ -17,7 +17,7 @@
     "minimatch": "^3.0.4",
     "morgan": "^1.9.1",
     "node.flow": "^1.0.0",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "node.extend": "2.0.2",
